@@ -64,7 +64,7 @@ namespace FibonacciGenerator
                 if (currentFib < 0)
                 {
                     // Output the value
-                    Console.WriteLine($"{counter} :Number Exceedes {Int64.MaxValue}");
+                    Console.WriteLine($"{counter} :Number Exceedes Int64 Display Limit: ({Int64.MaxValue})");
 
                     // Break out of the loop
                     break;
